@@ -4,7 +4,7 @@ const Video = () => {
   return (
     <div className="h-full w-full">
       <video
-        src="/ad.mp4"
+        src="/ads.mp4"
         playsInline
         autoPlay
         muted

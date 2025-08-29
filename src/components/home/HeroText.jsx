@@ -8,7 +8,7 @@ const HeroText = () => {
       </div>
       <div className="flex items-center text-4xl sm:text-7xl md:text-9xl font-medium">
         all
-        <span className="inline-flex items-center justify-center h-[2rem] sm:h-[3.5rem] md:h-[6rem] mx-3 rounded-full overflow-hidden sm:w-[8.5rem] md:w-[13rem] object-scale-down">
+        <span className="inline-flex items-center justify-center h-[2rem] sm:h-[3.5rem] md:h-[6rem] mx-3 rounded-full overflow-hidden w-[4rem] sm:w-[8.5rem] md:w-[13rem] object-scale-down">
           <Video />
         </span>
         things
