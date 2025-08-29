@@ -1,4 +1,3 @@
-import React from "react";
 import Video from "../components/home/Video";
 import HeroText from "../components/home/HeroText";
 import BottomText from "../components/home/BottomText";
