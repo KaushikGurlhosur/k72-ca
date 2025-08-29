@@ -8,7 +8,7 @@ const Home = () => {
       <div className="h-screen w-screen absolute z-0">
         <Video />
       </div>
-      <div className="h-screen w-screen flex flex-col relative z-10">
+      <div className="h-screen w-screen flex flex-col  justify-between relative overflow-hidden z-10">
         <HeroText />
         <BottomText />
       </div>
