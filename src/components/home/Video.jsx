@@ -9,6 +9,7 @@ const Video = () => {
         autoPlay
         muted
         loop
+        preload="auto"
         className="h-full w-full object-cover block"
       />
     </div>
