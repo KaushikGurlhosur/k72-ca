@@ -22,3 +22,20 @@ body {
 .font-lavishly {
   font-family: "Lavishly Yours", cursive;
 }
+
+@media screen and (orientation: landscape) {
+  body::before {
+    content: "Please rotate your device to portrait mode 📱";
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 9999;
+    text-align: center;
+    padding: 1rem;
+  }
+}
