@@ -2,8 +2,8 @@ import Video from "./Video";
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col justify-center items-center space-y-4 font-[questrial] uppercase mt-2">
-      <div className=" text-4xl sm:text-7xl md:text-9xl font-bold leading-[7vw]">
+    <div className="flex flex-col justify-center items-center space-y-4 font-[questrial] uppercase mt-2 ">
+      <div className=" text-4xl sm:text-7xl md:text-9xl font-bold leading-[7vw] shrink-[2]">
         The spark for
       </div>
       <div className="flex items-center text-4xl sm:text-7xl md:text-9xl font-bold leading-[7vw]">

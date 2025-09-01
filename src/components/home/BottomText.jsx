@@ -11,7 +11,7 @@ const BottomText = () => {
       <Link
         to="/agence"
         className="text-3xl sm:text-6xl md:text-8xl font-bold border-5 border-white rounded-full px-5 py-1 hover:border-[#D3FD50] hover:text-[#D3FD50] duration-1000 ease-in-out">
-        Agence
+        Agency
       </Link>
     </div>
   );
