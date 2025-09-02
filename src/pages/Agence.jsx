@@ -2,7 +2,7 @@ const Agence = () => {
   return (
     <div>
       <div className="section-1">
-        <div className="h-[20vw] w-[15vw] rounded-4xl overflow-hidden absolute top-52 left-[30vw] md:top-64 lg:top-96 xl:top-2/5 md:left-[30vw]">
+        <div className="h-[20vw] w-[15vw] rounded-2xl overflow-hidden absolute top-52 left-[30vw] md:top-64 lg:top-96 xl:top-2/5 md:left-[30vw]">
           <img
             className="h-full w-full object-cover"
             src="https://k72.ca/uploads/teamMembers/Claire_480x640-480x640.jpg"
