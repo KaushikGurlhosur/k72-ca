@@ -36,8 +36,9 @@ const Stairs = ({ children }) => {
       display: "none",
     });
 
-    tl.from(pageRef.current, {
-      opacity: 0.1,
+    gsap.from(pageRef.current, {
+      opacity: 0,
+      delay: 1.3,
       ease: "power1.inOut",
       scale: 1.5,
     });

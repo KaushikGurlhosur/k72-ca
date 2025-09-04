@@ -23,6 +23,9 @@ body {
   font-family: "Lavishly Yours", cursive;
 }
 
+body {
+  overflow-x: hidden;
+}
 @media screen and (max-width: 767px) and (orientation: landscape) {
   body::before {
     content: "Please rotate your device to portrait mode 📱";
